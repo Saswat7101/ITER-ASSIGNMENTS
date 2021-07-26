@@ -1,0 +1,20 @@
+
+public class nodes {
+	protected int regd_no;
+	protected float mark;
+	nodes next;
+	nodes(int regd_no, float mark)
+	{
+		this.regd_no=regd_no;
+		this.mark=mark;
+		this.next=null;
+	}
+	public float getMarks()
+	{
+		return mark;
+	}
+	public int getRegd_no()
+	{
+		return regd_no;
+	}
+}
